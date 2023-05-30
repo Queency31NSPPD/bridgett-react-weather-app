@@ -23,7 +23,7 @@ export default function App() {
        {""} and open-sourced on {""}
         <a
           className="App-link"
-          href="https://github.com/Queency31NSPPD/weather-project-react"
+          href="https://github.com/Queency31NSPPD/bridgett-react-weather-app"
           target="_blank"
           rel="noopener noreferrer"
         >
