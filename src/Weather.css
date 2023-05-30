@@ -31,6 +31,7 @@
     width: 64px;
     margin-right: 10px;
     display: inline-block;
+    margin-top: -24px;
 }
 
 .Weather .unit {
