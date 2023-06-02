@@ -1,5 +1,6 @@
 
  import React, { useState } from 'react';
+ import FormattedDate from './FormattedDate';
  import './Weather.css';
  import axios from 'axios';
  
@@ -14,7 +15,7 @@
              ready: true,
              temperature: response.data.temperature.current,
              city: response.data.city,
-             date: 'last updated: Mon, 22 May 2023, time: 5:34',
+             date: new Date(response.data.time * 1000),
              wind: response.data.wind.speed,
              humidity: response.data.temperature.humidity,
              description: response.data.condition.description,
@@ -44,7 +45,7 @@
                  <h1>{weatherData.city}</h1>
                  <ul>
                      <li className='text-capitalize'>
-                         {weatherData.date}
+                         <FormattedDate date={weatherData.date} />
  
                      </li>
                      <li className='text-capitalize'>
@@ -85,5 +86,5 @@
  
          return 'loading...';
  
-     }
+     } 
  }
