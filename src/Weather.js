@@ -21,7 +21,7 @@
              wind: response.data.wind.speed,
              humidity: response.data.temperature.humidity,
              description: response.data.condition.description,
-             icon_url: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png`,
+             icon_url: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
          });
  
      }
