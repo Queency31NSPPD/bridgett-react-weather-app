@@ -26,12 +26,10 @@
 
 }
 
-.Weather img {
-    height: 64px;
-    width: 64px;
+.Weather canvas {
     margin-right: 10px;
     display: inline-block;
-    margin-top: -24px;
+    margin-top: 5px;
 }
 
 .Weather .unit {
