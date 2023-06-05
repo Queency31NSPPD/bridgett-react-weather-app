@@ -15,6 +15,7 @@
          console.log(response.data);
          setWeatherData({
              ready: true,
+             coordinates: response.data.coordinates,
              temperature: response.data.temperature.current,
              city: response.data.city,
              date: new Date(response.data.time * 1000),
@@ -63,7 +64,7 @@ setCity(event.target.value);
                      </div>
                  </form>
                   <WeatherInfo info={weatherData} />
-                  <WeatherForecast />
+                  <WeatherForecast coordinates={weatherData.coordinates}  />
                   </div>
                 );
      } else {
