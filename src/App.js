@@ -29,6 +29,15 @@ export default function App() {
         >
         Github
         </a>
+        {""} and hosted on {""}
+        <a
+          className="A-link"
+          href="https://meek-sundae-bd3756.netlify.app"
+          target="_blank"
+          rel="noopeppner noreferrer"
+        >
+        Netlify
+        </a>
           </footer>
     </div>
     </div>
