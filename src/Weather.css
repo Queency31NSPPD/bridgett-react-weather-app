@@ -7,8 +7,8 @@
 }
 
 .Weather h1 {
-    font-size: 24px;
-    font-weight: 100;
+    font-size: 30px;
+    font-weight: 900;
     line-height: 29px;
     margin: 20px 0 0 0;
 }
@@ -20,7 +20,7 @@
 
 .Weather li {
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 600;
     line-height: 19px;
     list-style: none;
 
@@ -35,7 +35,7 @@
 .Weather .unit {
     color: black;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     position: relative;
     top: -34px;
     margin-left: 5px;
@@ -48,5 +48,5 @@
     color: black;
     font-size: 64px;
     line-height: 64px;
-    font-weight: 400;
+    font-weight: 900;
 }
