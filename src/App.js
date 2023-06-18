@@ -32,7 +32,7 @@ export default function App() {
         {""} and hosted on {""}
         <a
           className="App-link"
-          href="https://meek-sundae-bd3756.netlify.app"
+          href="https://app.netlify.com/sites/aquamarine-tarsier-9f4014/settings/domain"
           target="_blank"
           rel="noopeppner noreferrer"
         >
