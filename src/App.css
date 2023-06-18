@@ -18,7 +18,7 @@ body {
   font-size: 13px;
   margin: 10px 0;
   color: black;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .App-link {
@@ -30,7 +30,7 @@ body {
     font-size: 12px;
     margin: 10px 0;
     color: black;
-    font-weight: bolder;
+    font-weight: bold;
   }
 
   .btn {
