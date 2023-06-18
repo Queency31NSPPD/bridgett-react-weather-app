@@ -22,7 +22,7 @@ body {
 }
 
 .App-link {
-  color: black;
+  color: rgb(231, 222, 222);
 }
 
 @media (max-width: 900px) {

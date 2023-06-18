@@ -22,7 +22,7 @@ export default function App() {
         </a>
        {""} and open-sourced on {""}
         <a
-          className="A-link"
+          className="App-link"
           href="https://github.com/Queency31NSPPD/bridgett-react-weather-app"
           target="_blank"
           rel="noopeppner noreferrer"
@@ -31,7 +31,7 @@ export default function App() {
         </a>
         {""} and hosted on {""}
         <a
-          className="A-link"
+          className="App-link"
           href="https://meek-sundae-bd3756.netlify.app"
           target="_blank"
           rel="noopeppner noreferrer"
